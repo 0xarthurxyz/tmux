@@ -17,7 +17,7 @@ Attach to session:
 
 ```sh
 tmux attach -t mysession
-```n
+```
 
 Detach from session:`Ctrl`+`b` `d`
 
