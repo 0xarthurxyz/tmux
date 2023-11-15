@@ -23,3 +23,9 @@ Detach from session:`Ctrl`+`b` `d`
 
 Scroll: (Enter copy mode) `Ctrl`+`b` `[`
 
+Split vertically (left/right): `Ctrl`+`b` `%`
+Close pane: `Ctrl`+`b` `x`
+
+Split horizontally (top/bottom): `Ctrl`+`b` `"`"
+
+Move between panes: `Ctrl`+`b` arrow keys
