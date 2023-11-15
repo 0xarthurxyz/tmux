@@ -21,7 +21,7 @@ tmux attach -t mysession
 
 Detach from session:`Ctrl`+`b` `d`
 
-Scroll: (Enter copy mode) `Ctrl`+`b` `[`
+Scroll: (Enter copy mode) `Ctrl`+`b` `[ (Exit copy mode) `q`
 
 Split vertically (left/right): `Ctrl`+`b` `%`
 Close pane: `Ctrl`+`b` `x`
