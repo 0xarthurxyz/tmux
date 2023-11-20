@@ -26,6 +26,18 @@ Scroll: (Enter copy mode) `Ctrl`+`b` `[ (Exit copy mode) `q`
 Split vertically (left/right): `Ctrl`+`b` `%`
 Close pane: `Ctrl`+`b` `x`
 
-Split horizontally (top/bottom): `Ctrl`+`b` `"`"
+Split horizontally (top/bottom): `Ctrl`+`b` `"`
 
-Move between panes: `Ctrl`+`b` arrow keys
+Move between panes: `Ctrl`+`b` arrow key
+
+Rename session:
+
+```sh
+tmux rename-session -t currentName newName
+```
+
+Delete session: 
+
+```sh
+tnux kill-session -t <sessionName>
+```
