@@ -75,3 +75,15 @@ Delete session:
 ```sh
 tnux kill-session -t <sessionName>
 ```
+
+Resize window (window with lots of dots)
+
+```sh
+tmux a -d -t <SESSION_NUM>
+```
+
+> When you attach to a session in two different terminal applications.
+> You may notice that some of the window space is filled with dots. 
+> That is because the session window before is smaller than the current window.
+
+Source: [jdhao.github.io](https://jdhao.github.io/2018/10/23/tmux_questions_and_trouble_shooting/)
