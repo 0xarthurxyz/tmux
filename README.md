@@ -53,22 +53,24 @@ tmux rename -t mysession newName
 tmux rename-session -t mysession newName
 ```
 
-Detach from session: `Ctrl`+`b` `d`
+Prefix (default): `Ctrl`+`b`
 
-Create new window: `Ctrl`+`b` `c`
+Detach from session: `Prefix` `d`
 
-Rename window: `Ctrl`+`b` `,`
+Create new window: `Prefix` `c`
 
-List all windows: `Ctrl`+`b` `w`
+Rename window: `Prefix` `,`
 
-Scroll: (Enter copy mode) `Ctrl`+`b` `[` (Exit copy mode) `q`
+List all windows: `Prefix` `w`
 
-Split vertically (left/right): `Ctrl`+`b` `%`
-Close pane: `Ctrl`+`b` `x`
+Scroll: (Enter copy mode) `Prefix` `[` (Exit copy mode) `q`
 
-Split horizontally (top/bottom): `Ctrl`+`b` `"`
+Split vertically (left/right): `Prefix` `%`
+Close pane: `Prefix` `x`
 
-Move between panes: `Ctrl`+`b` arrow key
+Split horizontally (top/bottom): `Prefix` `"`
+
+Move between panes: `Prefix` arrow key
 
 Delete session: 
 
@@ -87,3 +89,7 @@ tmux a -d -t <SESSION_NUM>
 > That is because the session window before is smaller than the current window.
 
 Source: [jdhao.github.io](https://jdhao.github.io/2018/10/23/tmux_questions_and_trouble_shooting/)
+
+Resources:
+
+- "tmux shortcuts & cheatsheet" ([gist.github.com](https://gist.github.com/MohamedAlaa/2961058))
