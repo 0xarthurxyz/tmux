@@ -63,6 +63,8 @@ Rename window: `Prefix` `,`
 
 List all windows: `Prefix` `w`
 
+Move pane: `Prefix` `{` (left) `}` (right)
+
 Scroll: (Enter copy mode) `Prefix` `[` (Exit copy mode) `q`
 
 Split vertically (left/right): `Prefix` `%`
